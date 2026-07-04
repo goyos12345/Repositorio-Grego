@@ -20,8 +20,8 @@ public class Apartamento extends Edificio {
 		this.nomEdificio = nomEdificio;
 	}
 
-	public Apartamento(String nombre, int codPostal, int piso, String nomEdificio) {
-		super(nombre, codPostal);
+	public Apartamento(String nombre, int codPostal,int id, int piso, String nomEdificio) {
+		super(nombre, codPostal, id);
 		this.piso = piso;
 		this.nomEdificio = nomEdificio;
 	}

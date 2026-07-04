@@ -15,8 +15,8 @@ public class Casa extends Edificio{
 	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
-	public Casa(String nombre, int codPostal, int cantPisos, double precio) {
-		super(nombre, codPostal);
+	public Casa(String nombre, int codPostal,int id, int cantPisos, double precio) {
+		super(nombre, codPostal, id);
 		this.cantPisos = cantPisos;
 		this.precio = precio;
 	}

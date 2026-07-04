@@ -1,8 +1,16 @@
 package Bob_Destruye;
 
 public abstract class Edificio {
+	private int id;
 	private String nombre;
 	private int codPostal;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getNombre() {
 		return nombre;
 	}
@@ -15,8 +23,9 @@ public abstract class Edificio {
 	public void setCodPostal(int codPostal) {
 		this.codPostal = codPostal;
 	}
-	public Edificio(String nombre, int codPostal) {
+	public Edificio(String nombre, int codPostal, int id) {
 		super();
+		this.id=id;
 		this.nombre = nombre;
 		this.codPostal = codPostal;
 	}
