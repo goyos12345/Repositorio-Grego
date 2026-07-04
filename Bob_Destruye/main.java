@@ -45,10 +45,10 @@ public class main {
 					System.out.println("Ingrese el nombre del edificio en el que se ubica:");
 					String p = sc.next();
 					altaApa(arrApa, n, cd, pp, p);
-					
+				}
 				op = 0;
 				break;
-				}
+				
 
 			case 2:
 				System.out.println("Casas: \nID / Nombre / Cód.postal / Pisos / Precio");
